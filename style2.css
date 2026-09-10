@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    height: 100vh;
+
+
+}
+.top{
+    background-color: rgb(125, 20, 20);
+}
+.text{
+     background-color: rgb(125, 20, 20);
+}
+.top img{
+    height: 250px;
+    padding-left: 130px;
+    padding-top: 30px;
+}
+.text h2{
+    font-size: 130px;
+    padding-left: 130px;
+    padding-top: 20px;
+    font-family: ;
+    color: white;
+}
+.text h3{
+    font-size: 66px;
+    padding-left: 130px;
+    padding-top: 20px;
+    color: black
+    font-family: ;
+}
+.text p{
+    font-size: 25px;
+    padding-left: 130px;
+    padding-top: 20px;
+    color: white;
+    text-align: left;
+    padding-right: 160px;
+    letter-spacing: 1px;
+    text-align: start;
+    padding-bottom: 160px;
+}
+.up{
+    display: flex;
+    padding-left: 130px;
+    font-size: 62px;
+    font-weight: 700;
+    gap: 4px;
+    padding-top: 140px;
+}
+.up img{
+    height: 62px;
+    width: 70px;
+    padding-top: 22px;
+}
+.clubs h4 h5{
+    text-align: center;
+    
+}
+.clubs img{
+    height: 150px;
+}
+.clubs h4{
+font-size: 20px;
+color: darkred;
+}
+.clubs h5{
+    font-size: 20px;
+    color: black;
+
+}
+.clubs{
+    gap: 100px;
+    display: flex;
+    margin-top: 30px;
+    padding-left: 130px;
+}
+.bvb{
+    text-align: center;
+}
+
+footer{
+    background-color: darkred;
+    font-size:47px;
+    padding-left: 130px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
