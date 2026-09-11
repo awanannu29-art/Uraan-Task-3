@@ -17,6 +17,7 @@ main{
     margin-top: 30px;
      position: relative;
      display: flex;
+     clip-path: polygon(0 0,100% 0 ,100% 90%, 87% 100%,0 100%);
     
 
 }
