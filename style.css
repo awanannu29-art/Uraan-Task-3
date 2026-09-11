@@ -48,14 +48,14 @@ header img{
     margin-top: 100px;
 }
 .input{
-    width: 520px;
+    width: 500px;
     height: 60px;
     margin: 10px;
      color: white;
       font-size: 0.9rem;
       padding: 0.5rem;
       background-color: rgb(124, 36, 36);
-      border: 1px solid white;
+      border: 2px solid white;
     
 
 }
@@ -64,7 +64,7 @@ textarea{
     height: 70px;
     /* margin: 10px; */
       background-color: rgb(124, 36, 36);
-      border: 1px solid white;
+      border: 2px solid white;
       margin-left: 0%;
       color: white;
       font-size: 0.9rem;
@@ -72,6 +72,8 @@ textarea{
     
 checkbox{
     padding-left: 100px;
+    background-color: darkred;
+    border: 1px solid white;
 }
 }
 #101{
@@ -85,9 +87,9 @@ checkbox{
 button{
     width: 500px;
     height: 50px;
-    margin-left: 25px;
-    margin-top: 30px;
-    font-size: 1rem;
+    /* margin-left: 25px; */
+    /* margin-top: 30px; */
+    /* font-size: 1rem; */
 }
 .left, .right{
     width: 50%;
@@ -103,26 +105,33 @@ button{
 .top{
 display: grid;
 grid-template-columns: 1fr 1fr;
-gap: 15px;
+justify-content: start;
+gap: 10px;
+padding-left: 0px;
 }
 .box1, .box2{
-    height: 20px;
+    height: 10px;
     margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 15px;
     color: white;
     /* border: 2px solid black; */
 
 }
+
 .bottom{
       height: 75px;
       padding: 15px;
       /* border: 1px solid black; */
 }
 .box2 button{
-    margin-top: 2px;
-    padding-left: 0%;
-    width: 15px;
-    height: 15px;
+    /* margin-top: 9px;
+    padding-left: 0%; */
+    width: 19px;
+    height: 20px;
+    margin-top: 0px;
+    /* margin-top: 0px; */
+    /* padding-top: 0px; */
 }
 .main-box h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -136,4 +145,11 @@ gap: 15px;
     margin-left: 10px;
     margin-top: 8px;
     color: white;
+}
+.btn{
+    font-size: 2rem;
+    margin-left: 13px;
+    margin-top: 30px;
+    color: rgb(66, 61, 61);
+
 }
