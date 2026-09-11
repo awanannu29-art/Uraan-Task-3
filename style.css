@@ -5,6 +5,11 @@
     /* height: 100vh; */
 
 }
+html body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 main{
     background-color: rgb(124, 36, 36);
     height: 1250px;
@@ -12,6 +17,7 @@ main{
     margin-top: 30px;
      position: relative;
      display: flex;
+    
 
 }
 header img{
@@ -70,11 +76,6 @@ textarea{
       font-size: 0.9rem;
       padding: 0.5rem;
     
-checkbox{
-    padding-left: 100px;
-    background-color: darkred;
-    border: 1px solid white;
-}
 }
 #101{
     height: -1rem;
@@ -152,4 +153,24 @@ padding-left: 0px;
     margin-top: 30px;
     color: rgb(66, 61, 61);
 
+}
+.my-checkbox {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background-color:  rgb(124, 36, 36);
+    border: 1px solid white;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+/* When checked */
+.my-checkbox:checked {
+    background-color: rgb(124, 36, 36);
+    border-color: white;
+}
+.my-checkbox:checked::after {
+    content: "✓";
+    color: white;
+    font-size: 15px;
 }
